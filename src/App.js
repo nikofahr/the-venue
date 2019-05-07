@@ -15,7 +15,6 @@ class App extends Component {
     return (
       <div className="App" style={{ height: '1500px' }}>
         <Header />
-
         <Element name="featured">
           <Featured />
         </Element>
@@ -35,7 +34,6 @@ class App extends Component {
         <Element name="location">
           <Location />
         </Element>
-
         <Footer />
       </div>
     );
